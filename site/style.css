@@ -6,6 +6,7 @@
 		body{
 			margin : 0;
 			background-color: #fff;
+
 		}
 		header{
 			border: 3px solid #bbb;
@@ -27,6 +28,7 @@
 
 		ul{
 			margin-left: 30px;
+			padding: 3%;
 		}
 
 		p{
@@ -79,3 +81,17 @@
 			padding-top: 50px;
 			width : 100%;
 		}
+
+@media (max-width : 600px){
+	a.clickableImage{
+		width : 100%;
+
+	}
+	h4 {
+		width : 75%;
+		margin-left: 12.5%;
+	}
+	img {
+		width : 90%;
+	}
+}
