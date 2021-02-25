@@ -1,15 +1,16 @@
 		*{	
-			font-family: Monaco;
+			font-family: 'Montserrat', sans-serif;
 			box-sizing: border-box;
 
 		}
 		body{
+
 			margin : 0;
 			background-color: #fff;
 		}
 		header{
-			border: 3px solid #bbb;
-			background-color: #ffa;
+			width : 100%;
+			background-color: #ddd;
 		}
 		#pageTitle{
 			margin : 0px;
@@ -26,17 +27,16 @@
 		}
 
 		ul{
-			margin-left: 30px;
+			margin: 30px;
 		}
 
 		p{
-			background-color: #ffa;
+			background-color: #ddd;
 			line-height: 2.6;
 			color : #333;
 			font-size: 15px;
-			margin : 50px;
-			padding-right: 30px;
-			padding-left: 30px;
+			margin: 0px;
+			padding: 30px;
 		}
 
 		ul li{
@@ -50,6 +50,8 @@
 			display: block;
 			padding: 0px;
 			margin : auto;
+			margin-top: 50px;
+			margin-bottom: 50px;
 			width : 470px;
 
 		}
