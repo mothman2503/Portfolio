@@ -40,6 +40,12 @@
 			display: inline-block;
 		}
 
+		#MenuBar div.line{
+			display: block;
+			padding: 0px;
+			margin: 0px;
+		}
+
 		#MenuBar div a:hover{
 			font-style: italic;
 		}
@@ -123,6 +129,7 @@
 		.mainContainer{
 			padding : 0px;
 			margin : 0px;
+			background-color: #ddd;
 		}
 @media (max-width : 600px){
 	h4{
